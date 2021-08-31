@@ -64,6 +64,8 @@ Experiencia>7.
 cocinaBien(remy,Plato):-
 cocina(_,Plato,_).
 
+cocinaBien(remy,Plato):-
+plato(Plato,_).
 
 
 /*
